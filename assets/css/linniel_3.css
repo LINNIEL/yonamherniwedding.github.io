@@ -1,0 +1,69 @@
+
+#linniel_3{
+
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #620000;
+    overflow:hidden;
+
+}
+
+
+.mempelai_img{
+    width: 220px;
+    border: solid 2px #fdfdfd;
+    padding: 5px;
+    border-radius: 20px;
+}
+.m_pria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+hr.custom{
+
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    border: none;
+    background: var(--color-secondary);
+    opacity: 1;
+
+}
+.ring{
+
+    display:block;
+
+    width:120px;
+
+    margin:10px auto;
+
+}
+.nama{
+    font-family: "Quicksand", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color: var(--color-secondary);
+    filter: drop-shadow(2px 4px 2px black);
+}
+.nama_2{
+    font-family: "Quicksand", cursive;
+    font-size: 24px;
+    color:var(--color-secondary);
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+
+.txt_undangan{
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 50px;
+}

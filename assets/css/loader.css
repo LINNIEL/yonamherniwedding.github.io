@@ -23,7 +23,7 @@
 .name-outline {
     display: block;
     color: transparent;
-    -webkit-text-stroke: 0.2px rgb(255, 196, 0);
+    -webkit-text-stroke: 0.8px var(--color-secondary);
 }
 
 /* Fill merah */

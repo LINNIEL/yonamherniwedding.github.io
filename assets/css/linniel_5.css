@@ -1,15 +1,30 @@
 /* ==========================================
    GALLERY
 ========================================== */
-#linniel_5{
-
-    position:relative;
-    width:100%;
-    min-height:100vh;
-    display:flex;
-    overflow:hidden;
-
+#linniel_5 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    isolation: isolate;
 }
+
+#linniel_5::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        transparent 40%,
+        rgba(98, 0, 0, 0.3) 55%,
+        rgba(98, 0, 0, 1) 100%
+    );
+    z-index: 0;
+    pointer-events: none;
+}
+
+
 .gallery-slider{
 
     width:100%;
@@ -85,6 +100,7 @@
     background: transparent;
     overflow: hidden;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .gallery-container {

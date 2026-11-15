@@ -85,12 +85,19 @@
     filter: drop-shadow(2px 2px 2px black);
 }
 
-.txt_jdwl{
+.txt_jdwl {
     font-family: "Quicksand", cursive;
     font-size: 14px;
-    color:var(--color-primary);
-    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0)) !important;
-    background-color: var(--color-secondary);
+    color: var(--color-secondary);
+
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+
+    background-color: rgba(255, 255, 255, 0.20);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     padding: 2px 10px;
 }
